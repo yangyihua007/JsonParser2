@@ -1,0 +1,49 @@
+﻿生成启动时间为 2022/8/29 0:04:40。
+     1>项目“F:\2022\interview\JsonParser2\JsonParser2\JsonParser2.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\JsonParser2.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\JsonParser2.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ArrayObject.cpp BasicObject.cpp ConcreteObject.cpp grammar.cpp JsonException.cpp JsonParser.cpp main.cpp Object.cpp stack.cpp SyntaxParse.cpp
+         SyntaxParse.cpp
+         stack.cpp
+         Object.cpp
+     1>f:\2022\interview\jsonparser2\jsonparser2\object.cpp(17): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+         main.cpp
+         JsonParser.cpp
+     1>f:\2022\interview\jsonparser2\jsonparser2\jsonparser.cpp(95): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>f:\2022\interview\jsonparser2\jsonparser2\jsonparser.cpp(189): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+         JsonException.cpp
+         grammar.cpp
+         ConcreteObject.cpp
+         BasicObject.cpp
+     1>f:\2022\interview\jsonparser2\jsonparser2\basicobject.cpp(38): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+         ArrayObject.cpp
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\2022\interview\JsonParser2\Debug\JsonParser2.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\JsonParser2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\2022\interview\JsonParser2\Debug\JsonParser2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\2022\interview\JsonParser2\Debug\JsonParser2.lib" /MACHINE:X86 Debug\ArrayObject.obj
+         Debug\BasicObject.obj
+         Debug\ConcreteObject.obj
+         Debug\grammar.obj
+         Debug\JsonException.obj
+         Debug\JsonParser.obj
+         Debug\main.obj
+         Debug\Object.obj
+         Debug\stack.obj
+         Debug\SyntaxParse.obj
+         JsonParser2.vcxproj -> F:\2022\interview\JsonParser2\Debug\JsonParser2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\2022\interview\JsonParser2\Debug\JsonParser2.exe;#1" /manifest Debug\JsonParser2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\JsonParser2.unsuccessfulbuild”。
+         正在对“Debug\JsonParser2.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\2022\interview\JsonParser2\JsonParser2\JsonParser2.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.26
